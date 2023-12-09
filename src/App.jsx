@@ -12,6 +12,7 @@ function App() {
         <Route path="/" element={<Menu />}>
           <Route path="problem-1" element={<Problem1 />} />
           <Route path="problem-2" element={<Problem2 />} />
+          <Route path="problem-2/:content" element={<Problem2 />} />
         </Route>
       </Routes>
     </>
